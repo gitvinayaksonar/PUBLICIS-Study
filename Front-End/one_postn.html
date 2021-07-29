@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div.relative {
+            position: relative;
+            top:30px;
+            left: 50px;
+            border: 3px solid #73AD21;
+            width : 100%;
+        }
+
+        div.absolute {
+            position: absolute;
+            top:10px;
+            left: 50px;
+            border: 3px solid #73AD21;
+        }
+    </style>
+    </head>
+    <body>
+
+<h2>position: relative;</h2>
+
+<p>An element with position: relative; is positioned relative to its normal position:</p>
+
+<div class="relative">
+	I will move from static position. I mean where i am supoosed to be.
+	<div class = 'absolute'>
+         i am some content. i will move w.r.to my parent i mean div.relative element.
+         If i dont have any position : abs/rel then i will b static meaning i ll shown after above content
+    </div>
+</div>
+
+</body>
+</html>
