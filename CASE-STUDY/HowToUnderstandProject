@@ -1,0 +1,18 @@
+===== To Do =====
+
+Study Nextjs features >> https://nextjs.org/docs/basic-features/pages
+atomic structure
+
+
+If u want a ready component to be positioned/styled, put it in <div></div> and style it using inline or class.
+  >>> We create a container component or presentational component and add the styles. or u can create a scss module and add the class and..
+      then utilise it in attrs().
+
+    
+Atomic design
+>>> I want Home and Products templates to be same header and footer. 
+> Now wrap the home and products page content, with page layout comp which in turn has header and footer free.
+
+
+hit the URL  > useRouter() hook gives u query
+In componentDidMount(), dispatch an action object, which fetches products with the given filter key
