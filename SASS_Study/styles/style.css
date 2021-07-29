@@ -1,0 +1,69 @@
+header, .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: gray;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 100vh;
+}
+
+header button, .footer button {
+  background-color: blue;
+  color: #ffffff;
+}
+
+header button:hover, .footer button:hover {
+  background-color: green;
+}
+
+header button::after, .footer button::after {
+  content: "Welcome Vinu";
+}
+
+header, .footer {
+  background-color: #46db39;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ecc272;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+}
+
+.footer {
+  background-color: gray;
+  height: 20%;
+}
+
+.footer button:hover {
+  background-color: orange;
+}
+
+.footer__heading {
+  color: yellow;
+}
+/*# sourceMappingURL=style.css.map */

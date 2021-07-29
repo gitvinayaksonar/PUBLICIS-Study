@@ -1,0 +1,26 @@
+@import "./variables";
+
+@mixin flexCenter($bcColor, $flexDirection) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: $bcColor;
+  flex-direction: $flexDirection;
+}
+
+header {
+  @include flexCenter(gray, row);
+  height: 100vh;
+
+  button {
+    background-color: $primaryBtnColor;
+    color: $btnTextColor;
+    &:hover {
+      background-color: green;
+    }
+    &::after {
+      content: "Welcome Vinu";
+    }
+  }
+}

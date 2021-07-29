@@ -1,0 +1,29 @@
+@import "./header";
+
+header {
+  background-color: rgb(70, 219, 57);
+  justify-content: center;
+}
+
+.contact {
+  @include flexCenter(#ecc272, column);
+  height: 100vh;
+}
+
+.footer {
+  @extend header;
+  background-color: gray;
+  button {
+    &:hover {
+      background-color: orange;
+    }
+  }
+  &__heading {
+    color: yellow;
+  }
+  height: 100% - 80%;
+}
+
+// .footer__heading {
+//   color: red;
+// }

@@ -1,0 +1,24 @@
+https://www.youtube.com/watch?v=8_RzRQXSHcg
+
+path lib > https://www.geeksforgeeks.org/node-js-path-resolve-method/
+
+
+Uses of nodemon:
+    > no need of cutting server after changes since it watches.
+    > Execute 2 scripts parallelly.
+
+
+************** Package.json file, ***************
+"webpack:server": "webpack --config webpack.server.js --watch" 
+    > This script runs server.js, which in turn runs react-page/components (reactjsx, es6) and generates bundle.js in build folder.
+
+Instead of cutting the server as soon as bundle.js is updated and restart, we use second script.
+
+"webpack:start" : "nodemon --watch build --exec node build/bundle.js"
+    > This script is equivalent to running build/bundle.js(===server.js) implies restart the server.
+    > Script says watch entire build folder. If any changes, execute bundle.js
+
+
+    
+Hydration theory  >> https://aboutmonica.com/blog/server-side-rendering-react-hydration-best-practices
+    
