@@ -1,0 +1,35 @@
+https://www.youtube.com/watch?v=rQryOSyfXmI
+
+container, container-fluid, container-md
+
+col-sm-6 
+>> sm = 576px >> Means columns will come one below other, browser width reaches <= 576px
+>> it takes 6 units in browser now
+
+**********************************************************************
+<div class="row">
+    <div class="col-sm-11 col-md-8 col-lg-3"> AAAAA </div>
+    <div class="col-6 col-sm-1 col-md-4 col-lg-9"> BBBBB </div>
+</div>
+
+sm = 576px
+md = 768px
+lg = 992px
+
+1st div takes a space of 11 units and 2nd div takes 1 units space above 576px
+1st div takes a space of 8 units and 2nd div takes 4 units space above 768px
+1st div takes a space of 3 units and 2nd div takes 9 units space above 992px
+less than sm screen or when not specific, div 2 takes 6 units
+
+
+**********************************************************************
+
+Bootstrap >
+It changes the look and layout by giving you the class names ver as MaterialUI gives you components and u ll chnage via props and optionally classnames.
+
+
+
+CSS Units > em, rem, vh
+https://careerkarma.com/blog/css-font-size/#:~:text=h1%20%7B%20font-size%3A%201.5em%3B%20%7D%20In%20our%20code%2C,our%20text%20would%20appear%20on%20the%20web%20page%3A
+
+
