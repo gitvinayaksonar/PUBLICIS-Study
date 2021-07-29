@@ -1,0 +1,39 @@
+block__element--modifier >>> name of the css class
+
+ex : nav__listItem--special
+
+**************************************************************************************************************************************************
+
+You tube > https://www.youtube.com/watch?v=SLjHSVwXYq4
+
+.card {
+    max-width : 300px;
+    margin : 2em;
+    padding : 2em;
+    box-shadow : 0 10px 30px -10px gray;
+    // below selector is to select a class inside .card class
+    &__title {
+        color : purple;
+        font : 15px;
+    }
+}
+
+.card--light {
+    background : white;
+}
+
+.card--dark {
+    background : black;
+    color : white;
+}
+
+
+<div class = "card card--dark">
+    <img class = "card__image" src = ''/>
+    <h2 class = "card__title"> I am a dark card </h2>
+    <p class = "card__body"> And here would be the content <p/>
+</div>
+
+*************************************************************************
+
+https://www.youtube.com/watch?v=er1JEDuPbZQ
